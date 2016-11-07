@@ -1,0 +1,84 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+/* Color Palette */
+.color-1{
+    background: #DFBB9F;
+}
+
+.color-2{
+    background: #F9C095;
+}
+.color-3{
+    background: #C48B84;
+}
+.color-4{
+    background: #905E67;
+    
+}
+.color-5{
+    background: #614554;
+}
+/* Textures or Patterns*/
+.pattern-1{
+    background: url("../img/wov.png");
+}
+
+.pattern-2{
+    background: url("../img/old_map.png");
+}
+
+.pattern-3{
+    background: url("../img/linedpaper.png");
+}
+.pattern-4{
+    background: url("../img/greyfloral.png");
+}
+.pattern-5{
+    background: url("../img/stardust.png");
+}
+
+/* Imagery */
+
+
+/* Icons */
+
+
+/* Navigation */
+a:link,
+a:visited {
+    color: #2E272D;
+    text-decoration: none;
+}
+
+a:hover{
+   background: #DFBB9F;
+   margin-left: 20px; 
+}
+
+a:active{
+    background: #905E67;
+}
+
+/* Typography */
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+
+h2{
+    font-family: 'Oxygen', sans-serif;
+    color: #2E272D
+}
+h1{
+    font-family: 'Oxygen', sans-serif;
+    color: #2E272D
+}
+h3{
+     font-family: 'Oxygen', sans-serif;
+    color: #2E272D
+}
+p{
+    font-family: 'Oxygen', sans-serif;
+    color: #2E272D
+}
