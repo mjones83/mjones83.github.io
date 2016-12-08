@@ -2,7 +2,7 @@ body {
   background: url("../img/greyfloralcopy.png");
 }
 img{
-    width: 50em;
+    width: 50%
 }
 /* FONTS */
 
@@ -26,36 +26,36 @@ p{
 h1{
     padding-left: 12.3em;
 }
-.links{
+div{
     padding-bottom: 1em;
     padding-left: 20em;
 }
 .bio {
   background: #C48B84;
-  border: .625em double #F9C095;
+  border: 10px double #F9C095;
   padding: 1em;
-  width: 25em;
+  width: 400px;
   font-family: 'Oxygen', sans-serif;
     color: #2E272D
   }
 section img {
     background: #DFBB9F; 
-    border: .625em double #614554;
+    border: 10px double #614554;
     position: relative;
-    min-width: 20em;
-    max-height: 20em;
-    right: -30.625em;
-    top: -47.5625em;
+    width: 20%;
+    height: 20%;
+    right: -490px;
+    top: -761px;
 }
 .objective {
     background: url("../img/stardust.png");
-    border: .625em double #905E67;
+    border: 10px double #905E67;
     padding: 1em;
     position: relative;
     width: 20%;
     height: 20%;
-    right: -47.8125em;
-    top: -64.6875em;
+    right: -765px;
+    top: -1035px;
     font-family: 'Oxygen', sans-serif;
     color: whitesmoke;
 }
@@ -65,23 +65,23 @@ objective, .ob{
 }
 .certs {
     background: #614554;
-    border: .625em double #DFBB9F;
+    border: 10px double #DFBB9F;
     padding: 1em;
     position: relative;
     width: 50%;
     height: 30%;
-    right: -30.625em;
-    top:  -62.5em;
+    right: -490px;
+    top:  -1000px;
     font-family: 'Oxygen', sans-serif;
     color: #000;
 }
-#resume {
+#resume{
     background: #DFBB9F;
-    border: .625em double #C48B84;
+    border: 10px double #C48B84;
     padding: 1em;
-    width: 62.5em;
+    width: 1000px;
     height: 80em;
-    margin-left: 1.875em;
+    margin-left: 30px;
     margin-top: -61em;
     font-family:'Oxygen', sans-serif;
     color: #2E272D;
@@ -98,10 +98,48 @@ a:visited {
 
 a:hover{
    background: #DFBB9F;
-   margin-left: 1.25em; 
 }
 
 a:active{
     background: #905E67;
 }
+
+/*CONTACT*/
+form {
+ background: #A18998; 
+ padding: 10px;
+  
+}
+
+input[type=submit]{
+  background: #DFBB9F;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  padding: 10px;
+}
+
+label, input, textarea{
+  display: block;
+  margin: 10px;  
+  transition: all .25s;
+}
+
+input:focus,
+textarea:focus {
+  background: #905E67;
+  padding: 10px;
+  transition: background .25s;
+  outline: none;
+}
+
+/*HOMEPAGE STUFF*/
+.homepage img {
+    display: flex;
+   position: relative;
+    width: 40%;
+    height: 40%;
+    padding-top: 15px;
+}
+
 
