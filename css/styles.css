@@ -98,9 +98,48 @@ a:visited {
 
 a:hover{
    background: #DFBB9F;
-   margin-left: 20px; 
 }
 
 a:active{
     background: #905E67;
 }
+
+/*CONTACT*/
+form {
+ background: #A18998; 
+ padding: 10px;
+  
+}
+
+input[type=submit]{
+  background: #DFBB9F;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  padding: 10px;
+}
+
+label, input, textarea{
+  display: block;
+  margin: 10px;  
+  transition: all .25s;
+}
+
+input:focus,
+textarea:focus {
+  background: #905E67;
+  padding: 10px;
+  transition: background .25s;
+  outline: none;
+}
+
+/*HOMEPAGE STUFF*/
+.homepage img {
+    display: flex;
+   position: relative;
+    width: 40%;
+    height: 40%;
+    padding-top: 15px;
+}
+
+
